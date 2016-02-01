@@ -161,6 +161,10 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3sM-cE-Vcm">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="41"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <state key="normal" title="c"/>
+                                                <connections>
+                                                    <action selector="clear" destination="BYZ-38-t0r" eventType="touchUpInside" id="q14-BQ-SaS"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T24-jJ-v2P">
                                                 <rect key="frame" x="110" y="0.0" width="100" height="41"/>

@@ -14,6 +14,7 @@
 		627062BE1C5DB08800B39630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627062BC1C5DB08800B39630 /* LaunchScreen.storyboard */; };
 		627062C91C5DB08800B39630 /* swift_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627062C81C5DB08800B39630 /* swift_calculatorTests.swift */; };
 		627062D41C5DB08800B39630 /* swift_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627062D31C5DB08800B39630 /* swift_calculatorUITests.swift */; };
+		62BC55301C5ECF370013C129 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC552F1C5ECF370013C129 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		627062CF1C5DB08800B39630 /* swift-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		627062D31C5DB08800B39630 /* swift_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_calculatorUITests.swift; sourceTree = "<group>"; };
 		627062D51C5DB08800B39630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62BC552F1C5ECF370013C129 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		627062A71C5DB08800B39630 = {
 			isa = PBXGroup;
 			children = (
+				62BC552F1C5ECF370013C129 /* CalculatorBrain.swift */,
 				627062B21C5DB08800B39630 /* swift-calculator */,
 				627062C71C5DB08800B39630 /* swift-calculatorTests */,
 				627062D21C5DB08800B39630 /* swift-calculatorUITests */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62BC55301C5ECF370013C129 /* CalculatorBrain.swift in Sources */,
 				627062B61C5DB08800B39630 /* ViewController.swift in Sources */,
 				627062B41C5DB08800B39630 /* AppDelegate.swift in Sources */,
 			);
@@ -485,6 +489,7 @@
 				627062DA1C5DB08800B39630 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		627062DB1C5DB08800B39630 /* Build configuration list for PBXNativeTarget "swift-calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				627062DD1C5DB08800B39630 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		627062DE1C5DB08800B39630 /* Build configuration list for PBXNativeTarget "swift-calculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				627062E01C5DB08800B39630 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

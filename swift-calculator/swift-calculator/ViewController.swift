@@ -78,6 +78,15 @@ class ViewController: UIViewController {
         print("operandStack = \(operandStack)")
     }
     
+    @IBAction func clear() {
+        operandStack.removeAll()
+        userIsinTheMiddleOfTypingANumber = false
+        displayValue = 0
+
+        print("cleared operandStack = \(operandStack)")
+
+        
+    }
     
     
 //    @IBAction func floatingPoint() {
