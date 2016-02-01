@@ -26,77 +26,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "swift-calculator/ViewController.swift"
-            timestampString = "475914436.39277"
+            timestampString = "475994083.661252"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "operate(_:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "swift-calculator/ViewController.swift"
-            timestampString = "475970986.779684"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "performOperation1(_:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "swift-calculator/ViewController.swift"
-            timestampString = "475970986.779684"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "multiply(_:op2:)"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "swift_calculator.ViewController.multiply (swift_calculator.ViewController)(Swift.Double, op2 : Swift.Double) -&gt; Swift.Double"
-                  moduleName = "swift-calculator"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/guang/Documents/Standford/swift-calculator/swift-calculator/ViewController.swift"
-                  timestampString = "475914452.229568"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "73"
-                  endingLineNumber = "73"
-                  offsetFromSymbolStart = "18">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "swift_calculator.ViewController.multiply (swift_calculator.ViewController) -&gt; (Swift.Double, op2 : Swift.Double) -&gt; Swift.Double"
-                  moduleName = "swift-calculator"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/guang/Documents/Standford/swift-calculator/swift-calculator/ViewController.swift"
-                  timestampString = "475914452.22978"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "71"
-                  endingLineNumber = "71"
-                  offsetFromSymbolStart = "12">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -106,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "swift-calculator/ViewController.swift"
-            timestampString = "475970986.779684"
+            timestampString = "475994083.661252"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "enter()"
             landmarkType = "5">
          </BreakpointContent>
@@ -122,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "swift-calculator/ViewController.swift"
-            timestampString = "475973147.993437"
+            timestampString = "475994083.661252"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
             landmarkName = "ViewController"
             landmarkType = "3">
          </BreakpointContent>

@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var display: UILabel! // optional initilized automatic for us/ set it earlier and stay set
     
     var userIsinTheMiddleOfTypingANumber : Bool = false // check for the first time of 0
+    var brain = CalulatorBrain()
     
     @IBAction func appendDigit(sender: UIButton) {
         let digit = sender.currentTitle!
@@ -25,44 +26,25 @@ class ViewController: UIViewController {
         print("digit = \(digit)")
     }
 
-    var operandStack = Array<Double>()
+   // var operandStack = Array<Double>()
     
     @IBAction func operate(sender: UIButton) {
         
-        let operation = sender.currentTitle!
+  //      let operation = sender.currentTitle!
         
         if userIsinTheMiddleOfTypingANumber {
-            
             enter()
         }
         
-        switch operation {
+        if let operation = sender.currentTitle {
             
-        case "×": performOperation { $0 * $1 } // if there is not agument {} goes outside
-        case "÷": performOperation { $1 / $0 }
-        case "+": performOperation { $0 + $1 }
-        case "−": performOperation { $1 - $0 }
-        case "√": performOperation1 {sqrt($0)}
-
-        default : break
+            if let result = brain.performOperation(operation) {
+                displayValue = result
+            }else {
+                displayValue = 0
+            }
         }
     }
-    
-    func performOperation(operation:(Double, Double) -> Double){
-        if operandStack.count >= 2 {
-            displayValue = operation(operandStack.removeLast(), operandStack.removeLast())
-            enter()
-        }
-    }
-    
-    
-    func performOperation1(operation: Double -> Double){
-        if operandStack.count >= 1 {
-            displayValue = operation(operandStack.removeLast())
-            enter()
-        }
-    }
-    
     
     
     func multiply(op1: Double, op2:Double) -> Double {
@@ -74,17 +56,23 @@ class ViewController: UIViewController {
     @IBAction func enter( ) { // no need for argument
         
         userIsinTheMiddleOfTypingANumber = false
-        operandStack.append(displayValue)
-        print("operandStack = \(operandStack)")
+        
+        if let result = brain.pushOperand(displayValue) {
+            displayValue = result
+        } else {
+          //displayValue to be optional
+            displayValue = 0 // should be nil
+        }
+        
+        //print("operandStack = \(operandStack)")
     }
     
     @IBAction func clear() {
-        operandStack.removeAll()
-        userIsinTheMiddleOfTypingANumber = false
-        displayValue = 0
-
-        print("cleared operandStack = \(operandStack)")
-
+//        operandStack.removeAll()
+//        userIsinTheMiddleOfTypingANumber = false
+//        displayValue = 0
+//
+//        print("cleared operandStack = \(operandStack)")
         
     }
     
